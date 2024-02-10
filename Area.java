@@ -2,7 +2,7 @@ class InheritanceA{
 
     public void findCircleArea(float rad) {
         System.out.println("The Area of Circle : "+Math.PI*Math.pow(rad,2));
-// your code here
+
     }
 
 }
@@ -11,7 +11,7 @@ class InheritanceB extends InheritanceA{
 
     public void findRectArea(float length,float breadth) {
         System.out.println("The Area of Rectangle : "+length*breadth);
-// your code here
+
     }
 
 }
